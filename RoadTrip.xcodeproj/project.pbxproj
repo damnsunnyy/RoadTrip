@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187BC0CA30484A0200FE6661 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 187BC0C930484A0200FE6661 /* FirebaseAuth */; };
+		187BC0CC30484A0200FE6661 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 187BC0CB30484A0200FE6661 /* FirebaseCore */; };
+		187BC0CE30484A0200FE6661 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 187BC0CD30484A0200FE6661 /* FirebaseFirestore */; };
+		187BC0D030485B5D00FE6661 /* CreateRideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BC0CF30485B5D00FE6661 /* CreateRideView.swift */; };
+		187BC0D430486C0000FE6661 /* JoinRideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BC0D330486C0000FE6661 /* JoinRideView.swift */; };
+		187BC0DA3049497700FE6661 /* FirebaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BC0D93049497700FE6661 /* FirebaseTest.swift */; };
+		187BC0DC304AB1C800FE6661 /* RideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BC0DB304AB1C800FE6661 /* RideView.swift */; };
+		187BC0DE304AB2B400FE6661 /* RideDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BC0DD304AB2B400FE6661 /* RideDetailView.swift */; };
+		18816F30306011A7003F8F89 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18816F2F306011A7003F8F89 /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187BC0A130480B6400FE6661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187BC08B30480B6200FE6661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187BC09230480B6200FE6661;
+			remoteInfo = RoadTrip;
+		};
+		187BC0AB30480B6400FE6661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187BC08B30480B6200FE6661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187BC09230480B6200FE6661;
+			remoteInfo = RoadTrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187BC09330480B6200FE6661 /* RoadTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187BC0A030480B6400FE6661 /* RoadTripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadTripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187BC0AA30480B6400FE6661 /* RoadTripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadTripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187BC0CF30485B5D00FE6661 /* CreateRideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRideView.swift; sourceTree = "<group>"; };
+		187BC0D330486C0000FE6661 /* JoinRideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinRideView.swift; sourceTree = "<group>"; };
+		187BC0D93049497700FE6661 /* FirebaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTest.swift; sourceTree = "<group>"; };
+		187BC0DB304AB1C800FE6661 /* RideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideView.swift; sourceTree = "<group>"; };
+		187BC0DD304AB2B400FE6661 /* RideDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailView.swift; sourceTree = "<group>"; };
+		18816F2F306011A7003F8F89 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		187BC09530480B6200FE6661 /* RoadTrip */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoadTrip;
+			sourceTree = "<group>";
+		};
+		187BC0A330480B6400FE6661 /* RoadTripTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoadTripTests;
+			sourceTree = "<group>";
+		};
+		187BC0AD30480B6400FE6661 /* RoadTripUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoadTripUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187BC09030480B6200FE6661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187BC0CC30484A0200FE6661 /* FirebaseCore in Frameworks */,
+				187BC0CA30484A0200FE6661 /* FirebaseAuth in Frameworks */,
+				187BC0CE30484A0200FE6661 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187BC09D30480B6400FE6661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187BC0A730480B6400FE6661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187BC08A30480B6200FE6661 = {
+			isa = PBXGroup;
+			children = (
+				18816F2F306011A7003F8F89 /* LocationManager.swift */,
+				187BC0D93049497700FE6661 /* FirebaseTest.swift */,
+				187BC0C530480DAD00FE6661 /* Utilities */,
+				187BC0C430480D9F00FE6661 /* Views */,
+				187BC0C330480D9600FE6661 /* Ride */,
+				187BC0C230480D8A00FE6661 /* Trip */,
+				187BC0C130480D7C00FE6661 /* Map */,
+				187BC0C030480D6C00FE6661 /* Location */,
+				187BC0BF30480D5200FE6661 /* Services */,
+				187BC0BE30480D4500FE6661 /* Models */,
+				187BC0BD30480C8500FE6661 /* App */,
+				187BC09530480B6200FE6661 /* RoadTrip */,
+				187BC0A330480B6400FE6661 /* RoadTripTests */,
+				187BC0AD30480B6400FE6661 /* RoadTripUITests */,
+				187BC09430480B6200FE6661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187BC09430480B6200FE6661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187BC09330480B6200FE6661 /* RoadTrip.app */,
+				187BC0A030480B6400FE6661 /* RoadTripTests.xctest */,
+				187BC0AA30480B6400FE6661 /* RoadTripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187BC0BD30480C8500FE6661 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		187BC0BE30480D4500FE6661 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		187BC0BF30480D5200FE6661 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		187BC0C030480D6C00FE6661 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		187BC0C130480D7C00FE6661 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		187BC0C230480D8A00FE6661 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		187BC0C330480D9600FE6661 /* Ride */ = {
+			isa = PBXGroup;
+			children = (
+				187BC0CF30485B5D00FE6661 /* CreateRideView.swift */,
+			);
+			path = Ride;
+			sourceTree = "<group>";
+		};
+		187BC0C430480D9F00FE6661 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				187BC0D330486C0000FE6661 /* JoinRideView.swift */,
+				187BC0DB304AB1C800FE6661 /* RideView.swift */,
+				187BC0DD304AB2B400FE6661 /* RideDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		187BC0C530480DAD00FE6661 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187BC09230480B6200FE6661 /* RoadTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187BC0B430480B6400FE6661 /* Build configuration list for PBXNativeTarget "RoadTrip" */;
+			buildPhases = (
+				187BC08F30480B6200FE6661 /* Sources */,
+				187BC09030480B6200FE6661 /* Frameworks */,
+				187BC09130480B6200FE6661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				187BC09530480B6200FE6661 /* RoadTrip */,
+			);
+			name = RoadTrip;
+			packageProductDependencies = (
+				187BC0C930484A0200FE6661 /* FirebaseAuth */,
+				187BC0CB30484A0200FE6661 /* FirebaseCore */,
+				187BC0CD30484A0200FE6661 /* FirebaseFirestore */,
+			);
+			productName = RoadTrip;
+			productReference = 187BC09330480B6200FE6661 /* RoadTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187BC09F30480B6400FE6661 /* RoadTripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187BC0B730480B6400FE6661 /* Build configuration list for PBXNativeTarget "RoadTripTests" */;
+			buildPhases = (
+				187BC09C30480B6400FE6661 /* Sources */,
+				187BC09D30480B6400FE6661 /* Frameworks */,
+				187BC09E30480B6400FE6661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187BC0A230480B6400FE6661 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				187BC0A330480B6400FE6661 /* RoadTripTests */,
+			);
+			name = RoadTripTests;
+			packageProductDependencies = (
+			);
+			productName = RoadTripTests;
+			productReference = 187BC0A030480B6400FE6661 /* RoadTripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187BC0A930480B6400FE6661 /* RoadTripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187BC0BA30480B6400FE6661 /* Build configuration list for PBXNativeTarget "RoadTripUITests" */;
+			buildPhases = (
+				187BC0A630480B6400FE6661 /* Sources */,
+				187BC0A730480B6400FE6661 /* Frameworks */,
+				187BC0A830480B6400FE6661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187BC0AC30480B6400FE6661 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				187BC0AD30480B6400FE6661 /* RoadTripUITests */,
+			);
+			name = RoadTripUITests;
+			packageProductDependencies = (
+			);
+			productName = RoadTripUITests;
+			productReference = 187BC0AA30480B6400FE6661 /* RoadTripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187BC08B30480B6200FE6661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					187BC09230480B6200FE6661 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					187BC09F30480B6400FE6661 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 187BC09230480B6200FE6661;
+					};
+					187BC0A930480B6400FE6661 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 187BC09230480B6200FE6661;
+					};
+				};
+			};
+			buildConfigurationList = 187BC08E30480B6200FE6661 /* Build configuration list for PBXProject "RoadTrip" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187BC08A30480B6200FE6661;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				187BC0C830484A0200FE6661 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 187BC09430480B6200FE6661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187BC09230480B6200FE6661 /* RoadTrip */,
+				187BC09F30480B6400FE6661 /* RoadTripTests */,
+				187BC0A930480B6400FE6661 /* RoadTripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187BC09130480B6200FE6661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187BC09E30480B6400FE6661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187BC0A830480B6400FE6661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187BC08F30480B6200FE6661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187BC0DC304AB1C800FE6661 /* RideView.swift in Sources */,
+				187BC0D430486C0000FE6661 /* JoinRideView.swift in Sources */,
+				187BC0D030485B5D00FE6661 /* CreateRideView.swift in Sources */,
+				187BC0DE304AB2B400FE6661 /* RideDetailView.swift in Sources */,
+				18816F30306011A7003F8F89 /* LocationManager.swift in Sources */,
+				187BC0DA3049497700FE6661 /* FirebaseTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187BC09C30480B6400FE6661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187BC0A630480B6400FE6661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187BC0A230480B6400FE6661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187BC09230480B6200FE6661 /* RoadTrip */;
+			targetProxy = 187BC0A130480B6400FE6661 /* PBXContainerItemProxy */;
+		};
+		187BC0AC30480B6400FE6661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187BC09230480B6200FE6661 /* RoadTrip */;
+			targetProxy = 187BC0AB30480B6400FE6661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		187BC0B230480B6400FE6661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		187BC0B330480B6400FE6661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187BC0B530480B6400FE6661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "RoadTrip uses your location to show your position to other riders during a ride.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.RoadTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187BC0B630480B6400FE6661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "RoadTrip uses your location to show your position to other riders during a ride.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.RoadTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		187BC0B830480B6400FE6661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.RoadTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadTrip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoadTrip";
+			};
+			name = Debug;
+		};
+		187BC0B930480B6400FE6661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.RoadTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadTrip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoadTrip";
+			};
+			name = Release;
+		};
+		187BC0BB30480B6400FE6661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.RoadTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoadTrip;
+			};
+			name = Debug;
+		};
+		187BC0BC30480B6400FE6661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.RoadTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoadTrip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187BC08E30480B6200FE6661 /* Build configuration list for PBXProject "RoadTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187BC0B230480B6400FE6661 /* Debug */,
+				187BC0B330480B6400FE6661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187BC0B430480B6400FE6661 /* Build configuration list for PBXNativeTarget "RoadTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187BC0B530480B6400FE6661 /* Debug */,
+				187BC0B630480B6400FE6661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187BC0B730480B6400FE6661 /* Build configuration list for PBXNativeTarget "RoadTripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187BC0B830480B6400FE6661 /* Debug */,
+				187BC0B930480B6400FE6661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187BC0BA30480B6400FE6661 /* Build configuration list for PBXNativeTarget "RoadTripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187BC0BB30480B6400FE6661 /* Debug */,
+				187BC0BC30480B6400FE6661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		187BC0C830484A0200FE6661 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		187BC0C930484A0200FE6661 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 187BC0C830484A0200FE6661 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		187BC0CB30484A0200FE6661 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 187BC0C830484A0200FE6661 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		187BC0CD30484A0200FE6661 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 187BC0C830484A0200FE6661 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 187BC08B30480B6200FE6661 /* Project object */;
+}
